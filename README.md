@@ -11,6 +11,11 @@ The course is organized into multiple parts, each focusing on specific aspects o
   - Part 2: Data Cleaning and Preparation
   - Part 3: Data Visualization Basics
   - Part 4: Advanced Data Analysis Techniques
+- **Day 2**
+  - Part 1: Exploratory Data Analysis
+  - Part 2: Statistical Analysis
+  - Part 3: Data Visualization with Seaborn
+  - Part 4: Time Series Analysis
 
 ## Prerequisites
 
@@ -18,11 +23,12 @@ The course is organized into multiple parts, each focusing on specific aspects o
 - Jupyter Notebook installed (recommended)
 - Python 3.8 or higher
 - Required Python packages:
-  - pandas
-  - numpy
-  - matplotlib
-  - seaborn
-  - scipy
+  - pandas (1.3.0+)
+  - numpy (1.20.0+)
+  - matplotlib (3.4.0+)
+  - seaborn (0.11.0+)
+  - scipy (1.7.0+)
+  - scikit-learn (1.0.0+)
 
 ## Getting Started
 
@@ -52,24 +58,52 @@ jupyter notebook
 * Day01_Part03.ipynb: Basic data visualization
 * Day01_Part04.ipynb: Advanced analysis techniques
 
-### Sample Dataset
-The repository includes a sample dataset StudentsPerformance.csv for practical exercises and demonstrations.
+### Day 2
+
+* Day02_Part01.ipynb: Exploratory data analysis techniques
+* Day02_Part02.ipynb: Statistical analysis and hypothesis testing
+* Day02_Part03.ipynb: Advanced visualization with Seaborn
+* Day02_Part04.ipynb: Introduction to time series analysis
+
+### Sample Datasets
+The repository includes several datasets for practical exercises and demonstrations:
+* StudentsPerformance.csv: Educational data for analysis
+* sales_data.csv: Time series data for forecasting exercises
+* customer_demographics.csv: Customer information for segmentation analysis
+* ecommerce_transactions.csv: Transaction data for market basket analysis
 
 ### Learning Approach
 Each notebook follows a structured approach:
 
-* Concept explanation
-* Practical examples
-* Hands-on exercises
+* Concept explanation with theoretical background
+* Practical examples with real-world scenarios
+* Hands-on exercises with step-by-step guidance
+* Challenge problems to test your understanding
+
+## Learning Outcomes
+
+By the end of this course, you will be able to:
+* Process and clean real-world datasets effectively
+* Perform comprehensive exploratory data analysis
+* Create insightful visualizations to communicate findings
+* Apply statistical methods to derive meaningful insights
+* Build predictive models using machine learning techniques
+* Present data-driven recommendations for business problems
 
 ## Developer
 
 * [Daniel Rondon](https://github.com/rondondaniel)
 
+## Contributing
+Contributions are welcome! If you'd like to contribute to this course, please:
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request with your changes
+
 ## License
 This course material is licensed under the MIT License.
 
 ## Support
-For any questions or assistance, please contact the course instructor or check the course discussion forum.
+For any questions or assistance, please contact the course instructor or check the [course discussion forum](https://github.com/rondondaniel/python-data-analysis-course/discussions).
 
 Happy learning!
